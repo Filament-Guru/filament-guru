@@ -1,13 +1,17 @@
-import { Controller, Get } from '@nestjs/common';
+import { Body, Controller, Post } from '@nestjs/common';
 
-import { AppService } from './app.service';
+import { UserService } from '@filament-guru/data-access-users';
 
 @Controller()
 export class AppController {
-  constructor(private readonly appService: AppService) {}
+  constructor(private readonly userService: UserService) {}
 
-  @Get()
-  getData() {
-    return this.appService.getData();
+  @Post('user')
+  async createUser(@Body() userData: { name?: string; email: string }) {
+    const { name, email } = userData;
+    return this.userService.createUser({
+      name,
+      email,
+    });
   }
 }

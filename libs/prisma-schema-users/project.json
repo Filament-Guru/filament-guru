@@ -1,0 +1,38 @@
+{
+  "name": "prisma-schema-users",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/prisma-schema-users/src",
+  "projectType": "library",
+  "targets": {
+    "prisma": {
+      "command": "prisma",
+      "options": {
+        "cwd": "libs/prisma-schema-users"
+      }
+    },
+    "generate-types": {
+      "command": "prisma generate",
+      "options": {
+        "cwd": "libs/prisma-schema-users"
+      }
+    },
+    "migrate": {
+      "command": "prisma migrate dev",
+      "options": {
+        "cwd": "libs/prisma-schema-users"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": [
+        "{options.outputFile}"
+      ],
+      "options": {
+        "lintFilePatterns": [
+          "libs/prisma-schema-users/**/*.ts"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

@@ -14,7 +14,17 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@filament-guru/data-access-users": [
+        "libs/data-access-users/src/index.ts"
+      ],
+      "@filament-guru/prisma-client-users": [
+        "libs/prisma-client-users/src/index.ts"
+      ],
+      "@filament-guru/prisma-schema-users": [
+        "libs/prisma-schema-users/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

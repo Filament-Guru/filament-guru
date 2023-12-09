@@ -1,0 +1,18 @@
+// https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+
+  output = "../../../node_modules/@prisma/client/one"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DB_USERS")
+}
+
+model User {
+  id    Int     @id @default(autoincrement())
+  email String  @unique
+  name  String?
+}
