@@ -1,0 +1,53 @@
+{
+  "name": "fg-be",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/fg-be/src",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nx/webpack:webpack",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "target": "node",
+        "compiler": "tsc",
+        "outputPath": "dist/apps/fg-be",
+        "main": "apps/fg-be/src/main.ts",
+        "tsConfig": "apps/fg-be/tsconfig.app.json",
+        "assets": ["apps/fg-be/src/assets"],
+        "webpackConfig": "apps/fg-be/webpack.config.js"
+      },
+      "configurations": {
+        "development": {},
+        "production": {}
+      }
+    },
+    "serve": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "fg-be:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "fg-be:build:development"
+        },
+        "production": {
+          "buildTarget": "fg-be:build:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"]
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "apps/fg-be/jest.config.ts"
+      }
+    }
+  },
+  "tags": []
+}
