@@ -1,0 +1,48 @@
+<admin-dialog-shell>
+  <form [formGroup]="updateProducerForm" (submit)="submit()">
+    <div class="grid gap-4 mb-4">
+      <div>
+        <label
+          for="producer-name"
+          class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+          i18n="@@dialog.createProducer.producerName"
+        >
+          Producer Name
+        </label>
+        <input
+          type="text"
+          name="name"
+          id="producer-name"
+          formControlName="name"
+          uiInput
+          placeholder="Type producer name"
+          i18n-placeholder="@@dialog.createProducer.producerNamePlaceholder"
+        />
+      </div>
+      <div>
+        <label
+          for="producer-url"
+          class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+          i18n="@@dialog.createProducer.producerUrl"
+        >
+          Producer Url
+        </label>
+        <input
+          type="url"
+          name="url"
+          id="producer-url"
+          formControlName="url"
+          uiInput
+          placeholder="https://example.com/producer"
+        />
+      </div>
+    </div>
+    <button
+      type="submit"
+      uiBtn
+      i18n="@@dialog.createProducer.btnUpdateProducer"
+    >
+      Update product
+    </button>
+  </form>
+</admin-dialog-shell>

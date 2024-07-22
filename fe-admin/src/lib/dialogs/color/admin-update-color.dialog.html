@@ -1,0 +1,27 @@
+<admin-dialog-shell>
+  <form [formGroup]="updateColorForm" (submit)="submit()">
+    <div class="grid gap-4 mb-4">
+      <div>
+        <label
+          for="color-name"
+          class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+          i18n="@@dialog.createColor.colorName"
+        >
+          Color Name
+        </label>
+        <input
+          type="text"
+          name="name"
+          id="color-name"
+          formControlName="name"
+          uiInput
+          placeholder="Type color name"
+          i18n-placeholder="@@dialog.createColor.colorNamePlaceholder"
+        />
+      </div>
+    </div>
+    <button type="submit" uiBtn i18n="@@dialog.createColor.btnUpdateColor">
+      Update product
+    </button>
+  </form>
+</admin-dialog-shell>

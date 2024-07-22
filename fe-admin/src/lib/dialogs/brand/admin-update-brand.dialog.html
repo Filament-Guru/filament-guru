@@ -1,0 +1,44 @@
+<admin-dialog-shell>
+  <form [formGroup]="updateBrandForm" (submit)="submit()">
+    <div class="grid gap-4 mb-4">
+      <div>
+        <label
+          for="brand-name"
+          class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+          i18n="@@dialog.createBrand.brandName"
+        >
+          Brand Name
+        </label>
+        <input
+          type="text"
+          name="name"
+          id="brand-name"
+          formControlName="name"
+          uiInput
+          placeholder="Type brand name"
+          i18n-placeholder="@@dialog.createBrand.brandNamePlaceholder"
+        />
+      </div>
+      <div>
+        <label
+          for="brand-url"
+          class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+          i18n="@@dialog.createBrand.brandUrl"
+        >
+          Brand Url
+        </label>
+        <input
+          type="url"
+          name="url"
+          id="brand-url"
+          formControlName="url"
+          uiInput
+          placeholder="https://example.com/brand"
+        />
+      </div>
+    </div>
+    <button type="submit" uiBtn i18n="@@dialog.createBrand.btnUpdateBrand">
+      Update product
+    </button>
+  </form>
+</admin-dialog-shell>

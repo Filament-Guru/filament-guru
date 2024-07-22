@@ -1,0 +1,31 @@
+<admin-dialog-shell>
+  <form [formGroup]="updateFilamentTypeForm" (submit)="submit()">
+    <div class="grid gap-4 mb-4">
+      <div>
+        <label
+          for="filament-type-slug"
+          class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+          i18n="@@dialog.createFilamentType.filamentSlug"
+        >
+          FilamentType Slug
+        </label>
+        <input
+          type="text"
+          name="name"
+          id="filament-type-slug"
+          formControlName="slug"
+          uiInput
+          placeholder="Type filament type slug"
+          i18n-placeholder="@@dialog.createFilamentType.filamentTypeSlugPlaceholder"
+        />
+      </div>
+    </div>
+    <button
+      type="submit"
+      uiBtn
+      i18n="@@dialog.createFilamentType.btnUpdateFilamentType"
+    >
+      Update product
+    </button>
+  </form>
+</admin-dialog-shell>

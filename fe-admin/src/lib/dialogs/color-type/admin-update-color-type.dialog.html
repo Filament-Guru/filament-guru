@@ -1,0 +1,31 @@
+<admin-dialog-shell>
+  <form [formGroup]="updateColorTypeForm" (submit)="submit()">
+    <div class="grid gap-4 mb-4">
+      <div>
+        <label
+          for="color-type-slug"
+          class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+          i18n="@@dialog.createColorType.colorSlug"
+        >
+          ColorType Slug
+        </label>
+        <input
+          type="text"
+          name="name"
+          id="color-type-slug"
+          formControlName="slug"
+          uiInput
+          placeholder="Type color type slug"
+          i18n-placeholder="@@dialog.createColorType.colorTypeSlugPlaceholder"
+        />
+      </div>
+    </div>
+    <button
+      type="submit"
+      uiBtn
+      i18n="@@dialog.createColorType.btnUpdateColorType"
+    >
+      Update product
+    </button>
+  </form>
+</admin-dialog-shell>

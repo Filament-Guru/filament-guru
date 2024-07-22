@@ -1,0 +1,21 @@
+<admin-dialog-shell size="sm">
+  <form [formGroup]="deleteForm" (submit)="submit()">
+    <p i18n="@@dialog.deleteColor.deleteMsg">
+      Are you sure you want to delete this color?
+    </p>
+    <div class="flex gap-4 justify-end mt-4">
+      <button
+        type="button"
+        uiBtn
+        btnStyle="gray"
+        (click)="close()"
+        i18n="@@buttons.cancel"
+      >
+        Cancel
+      </button>
+      <button type="submit" uiBtn btnStyle="red" i18n="@@buttons.delete">
+        Delete
+      </button>
+    </div>
+  </form>
+</admin-dialog-shell>

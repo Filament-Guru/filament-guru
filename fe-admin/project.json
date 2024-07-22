@@ -1,0 +1,22 @@
+{
+  "name": "fe-admin",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "fe-admin/src",
+  "prefix": "admin",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": [
+        "{workspaceRoot}/coverage/{projectRoot}"
+      ],
+      "options": {
+        "jestConfig": "fe-admin/jest.config.ts"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    }
+  }
+}

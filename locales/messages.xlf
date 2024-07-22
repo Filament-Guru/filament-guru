@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="tableHeader.id" datatype="html">
+        <source>ID</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/components/brand-list/admin-brand-list.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/components/flavor-group-list/admin-flavor-group-list.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/components/protein-powder-list/admin-protein-powder-list.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/components/protein-type/admin-protein-type-list.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tableHeader.name" datatype="html">
+        <source>Name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/components/brand-list/admin-brand-list.component.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/components/flavor-group-list/admin-flavor-group-list.component.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/components/protein-powder-list/admin-protein-powder-list.component.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/components/protein-type/admin-protein-type-list.component.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tableHeader.url" datatype="html">
+        <source>URL</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/components/brand-list/admin-brand-list.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/components/protein-powder-list/admin-protein-powder-list.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tableHeader.updatedAt" datatype="html">
+        <source> Updated At </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/components/brand-list/admin-brand-list.component.html</context>
+          <context context-type="linenumber">10,12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/components/flavor-group-list/admin-flavor-group-list.component.html</context>
+          <context context-type="linenumber">9,11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/components/protein-powder-list/admin-protein-powder-list.component.html</context>
+          <context context-type="linenumber">10,12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/components/protein-type/admin-protein-type-list.component.html</context>
+          <context context-type="linenumber">9,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tableHeader.createdAt" datatype="html">
+        <source> Created At </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/components/brand-list/admin-brand-list.component.html</context>
+          <context context-type="linenumber">13,15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/components/flavor-group-list/admin-flavor-group-list.component.html</context>
+          <context context-type="linenumber">12,14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/components/protein-powder-list/admin-protein-powder-list.component.html</context>
+          <context context-type="linenumber">13,15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/components/protein-type/admin-protein-type-list.component.html</context>
+          <context context-type="linenumber">12,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tableHeader.actions" datatype="html">
+        <source>Actions</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/components/brand-list/admin-brand-list.component.html</context>
+          <context context-type="linenumber">16,19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/components/flavor-group-list/admin-flavor-group-list.component.html</context>
+          <context context-type="linenumber">15,18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/components/protein-powder-list/admin-protein-powder-list.component.html</context>
+          <context context-type="linenumber">16,19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/components/protein-type/admin-protein-type-list.component.html</context>
+          <context context-type="linenumber">15,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dialog.createBrand.brandName" datatype="html">
+        <source> Brand Name </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/dialogs/brand/admin-create-brand.dialog.html</context>
+          <context context-type="linenumber">10,13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/dialogs/brand/admin-update-brand.dialog.html</context>
+          <context context-type="linenumber">10,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dialog.createBrand.brandNamePlaceholder" datatype="html">
+        <source>Type brand name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/dialogs/brand/admin-create-brand.dialog.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/dialogs/brand/admin-update-brand.dialog.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dialog.createBrand.brandUrl" datatype="html">
+        <source> Brand Url </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/dialogs/brand/admin-create-brand.dialog.html</context>
+          <context context-type="linenumber">28,31</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/dialogs/brand/admin-update-brand.dialog.html</context>
+          <context context-type="linenumber">28,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dialog.createBrand.btnAddNewBrand" datatype="html">
+        <source> Add new brand </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/dialogs/brand/admin-create-brand.dialog.html</context>
+          <context context-type="linenumber">53,56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dialog.deleteBrand.deleteMsg" datatype="html">
+        <source> Are you sure you want to delete this brand? </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/dialogs/brand/admin-delete-brand.dialog.html</context>
+          <context context-type="linenumber">4,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="buttons.cancel" datatype="html">
+        <source> Cancel </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/dialogs/brand/admin-delete-brand.dialog.html</context>
+          <context context-type="linenumber">14,16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/dialogs/flavor-group/admin-delete-flavor-group.dialog.html</context>
+          <context context-type="linenumber">14,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="buttons.delete" datatype="html">
+        <source> Delete </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/dialogs/brand/admin-delete-brand.dialog.html</context>
+          <context context-type="linenumber">17,19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/dialogs/flavor-group/admin-delete-flavor-group.dialog.html</context>
+          <context context-type="linenumber">17,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dialog.createBrand.btnUpdateBrand" datatype="html">
+        <source> Update product </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/dialogs/brand/admin-update-brand.dialog.html</context>
+          <context context-type="linenumber">41,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dialog.createFlavorGroup.flavorGroupName" datatype="html">
+        <source> Flavor Group Name </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/dialogs/flavor-group/admin-create-flavor-group.dialog.html</context>
+          <context context-type="linenumber">10,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dialog.createFlavorGroup.flavorGroupNamePlaceholder" datatype="html">
+        <source>Type flavor group name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/dialogs/flavor-group/admin-create-flavor-group.dialog.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dialog.createFlavorGroup.btnAddFlavorGroup" datatype="html">
+        <source> Add new flavor group </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/dialogs/flavor-group/admin-create-flavor-group.dialog.html</context>
+          <context context-type="linenumber">37,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dialog.deleteFlavorGroup.deleteMsg" datatype="html">
+        <source> Are you sure you want to delete this flavor group? </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/dialogs/flavor-group/admin-delete-flavor-group.dialog.html</context>
+          <context context-type="linenumber">4,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dialog.shell.btnClose" datatype="html">
+        <source>Close dialog</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/dialogs/layout/admin-dialog.shell.html</context>
+          <context context-type="linenumber">39,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="adminNavbar.backToHome" datatype="html">
+        <source> Back to home &gt;&gt; </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/layout/admin-navbar.component.html</context>
+          <context context-type="linenumber">23,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="adminSidebar.startpage" datatype="html">
+        <source>Startpage</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/layout/admin-sidebar.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="adminSidebar.brand" datatype="html">
+        <source>Brand</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/layout/admin-sidebar.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="adminSidebar.flavorGroup" datatype="html">
+        <source>Flavor Group</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/layout/admin-sidebar.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="adminSidebar.proteinType" datatype="html">
+        <source>Protein Type</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/layout/admin-sidebar.component.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="adminSidebar.proteinPowder" datatype="html">
+        <source>Protein Powder</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/layout/admin-sidebar.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="pages.brand.btnAddBrand" datatype="html">
+        <source>Add brand</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/pages/brand/brand.page.html</context>
+          <context context-type="linenumber">67,69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="pages.proteinPowder.btnAddProteinPowder" datatype="html">
+        <source>Add protein powder</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/pages/protein-powder/protein-powder.page.html</context>
+          <context context-type="linenumber">68,71</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

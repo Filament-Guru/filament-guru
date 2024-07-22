@@ -1,0 +1,82 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        Int      @id @default(autoincrement())
+  email     String   @unique
+  name      String?
+  password  String
+  role      UserRole @default(USER)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+enum UserRole {
+  USER
+  ADMIN
+}
+
+enum Diameter {
+  MM175
+  MM285
+  MM350
+}
+
+model Producer {
+  id        Int        @id @default(autoincrement())
+  slug      String     @unique
+  name      String
+  url       String
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+  Filament  Filament[]
+}
+
+model FilamentType {
+  id        Int        @id @default(autoincrement())
+  slug      String     @unique
+  name      String
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+  Filament  Filament[]
+}
+
+model Color {
+  id        Int      @id @default(autoincrement())
+  slug      String   @unique
+  name      String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model ColorType {
+  id        Int      @id @default(autoincrement())
+  slug      String   @unique
+  name      String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Filament {
+  id         Int          @id @default(autoincrement())
+  name       String
+  slug       String       @unique
+  producer   Producer     @relation(fields: [producerId], references: [id])
+  producerId Int
+  type       FilamentType @relation(fields: [typeId], references: [id])
+  typeId     Int
+  color      String
+  colorType  String
+  diameter   Diameter
+  weights    Int[]
+  createdAt  DateTime     @default(now())
+  updatedAt  DateTime     @updatedAt
+
+  @@index([producerId, typeId, weights, color, colorType, diameter])
+}
