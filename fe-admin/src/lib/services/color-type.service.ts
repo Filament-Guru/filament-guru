@@ -3,7 +3,7 @@ import { Injectable, signal } from '@angular/core';
 import { ColorType } from '../interfaces/color-type.interface';
 import { Observable } from 'rxjs';
 
-const API_ROUTE = '/api/color';
+const API_ROUTE = '/api/color-type';
 
 @Injectable({
   providedIn: 'root',
