@@ -101,6 +101,24 @@ export default async function main() {
     }
   });
 
+  const mehrfarbig = await prisma.color.upsert({
+    where: {slug: 'mehrfarbig'},
+    update: {},
+    create: {
+      name: 'Mehrfarbig',
+      slug: 'mehrfarbig',
+    }
+  });
+
+  const transparent = await prisma.color.upsert({
+    where: {slug: 'transparent'},
+    update: {},
+    create: {
+      name: 'Transparent',
+      slug: 'transparent',
+    }
+  });
+
   console.log({
     blau,
     gelb,
@@ -112,6 +130,8 @@ export default async function main() {
     braun,
     weiß,
     schwarz,
-    grau
+    grau,
+    mehrfarbig,
+    transparent,
   })
 }
