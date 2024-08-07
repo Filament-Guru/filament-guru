@@ -13,19 +13,23 @@
         <source>ID</source>
         <target state="translated">ID</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/components/brand-list/admin-brand-list.component.html</context>
+          <context context-type="sourcefile">
+            fe-admin/src/lib/components/color-list/admin-color-list.component.html</context>
           <context context-type="linenumber">7</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/components/flavor-group-list/admin-flavor-group-list.component.html</context>
+          <context context-type="sourcefile">
+            fe-admin/src/lib/components/color-type-list/admin-color-type-list.component.html</context>
           <context context-type="linenumber">7</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/components/protein-powder-list/admin-protein-powder-list.component.html</context>
+          <context context-type="sourcefile">
+            fe-admin/src/lib/components/filament-type-list/admin-filament-type-list.component.html</context>
           <context context-type="linenumber">7</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/components/protein-type/admin-protein-type-list.component.html</context>
+          <context context-type="sourcefile">
+            fe-admin/src/lib/components/producer-list/admin-producer-list.component.html</context>
           <context context-type="linenumber">7</context>
         </context-group>
       </trans-unit>
@@ -33,19 +37,18 @@
         <source>Name</source>
         <target state="translated">Name</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/components/brand-list/admin-brand-list.component.html</context>
+          <context context-type="sourcefile">
+            fe-admin/src/lib/components/color-list/admin-color-list.component.html</context>
           <context context-type="linenumber">7,8</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/components/flavor-group-list/admin-flavor-group-list.component.html</context>
+          <context context-type="sourcefile">
+            fe-admin/src/lib/components/filament-type-list/admin-filament-type-list.component.html</context>
           <context context-type="linenumber">7,8</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/components/protein-powder-list/admin-protein-powder-list.component.html</context>
-          <context context-type="linenumber">7,8</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/components/protein-type/admin-protein-type-list.component.html</context>
+          <context context-type="sourcefile">
+            fe-admin/src/lib/components/producer-list/admin-producer-list.component.html</context>
           <context context-type="linenumber">7,8</context>
         </context-group>
       </trans-unit>
@@ -53,123 +56,126 @@
         <source>URL</source>
         <target state="translated">URL</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/components/brand-list/admin-brand-list.component.html</context>
-          <context context-type="linenumber">9</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/components/protein-powder-list/admin-protein-powder-list.component.html</context>
-          <context context-type="linenumber">9</context>
+          <context context-type="sourcefile">
+            fe-admin/src/lib/components/producer-list/admin-producer-list.component.html</context>
+          <context context-type="linenumber">10</context>
         </context-group>
       </trans-unit>
       <trans-unit id="tableHeader.updatedAt" datatype="html">
         <source> Updated At </source>
         <target state="translated"> Letztes Update </target>
         <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/components/brand-list/admin-brand-list.component.html</context>
+          <context context-type="sourcefile">
+            fe-admin/src/lib/components/color-list/admin-color-list.component.html</context>
           <context context-type="linenumber">10,12</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/components/flavor-group-list/admin-flavor-group-list.component.html</context>
+          <context context-type="sourcefile">
+            fe-admin/src/lib/components/color-type-list/admin-color-type-list.component.html</context>
           <context context-type="linenumber">9,11</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/components/protein-powder-list/admin-protein-powder-list.component.html</context>
-          <context context-type="linenumber">10,12</context>
+          <context context-type="sourcefile">
+            fe-admin/src/lib/components/filament-type-list/admin-filament-type-list.component.html</context>
+          <context context-type="linenumber">9,11</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/components/protein-type/admin-protein-type-list.component.html</context>
-          <context context-type="linenumber">9,11</context>
+          <context context-type="sourcefile">
+            fe-admin/src/lib/components/producer-list/admin-producer-list.component.html</context>
+          <context context-type="linenumber">11,13</context>
         </context-group>
       </trans-unit>
       <trans-unit id="tableHeader.createdAt" datatype="html">
         <source> Created At </source>
         <target state="translated"> Erstellt </target>
         <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/components/brand-list/admin-brand-list.component.html</context>
+          <context context-type="sourcefile">
+            fe-admin/src/lib/components/color-list/admin-color-list.component.html</context>
           <context context-type="linenumber">13,15</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/components/flavor-group-list/admin-flavor-group-list.component.html</context>
+          <context context-type="sourcefile">
+            fe-admin/src/lib/components/color-type-list/admin-color-type-list.component.html</context>
           <context context-type="linenumber">12,14</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/components/protein-powder-list/admin-protein-powder-list.component.html</context>
-          <context context-type="linenumber">13,15</context>
+          <context context-type="sourcefile">
+            fe-admin/src/lib/components/filament-type-list/admin-filament-type-list.component.html</context>
+          <context context-type="linenumber">12,14</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/components/protein-type/admin-protein-type-list.component.html</context>
-          <context context-type="linenumber">12,14</context>
+          <context context-type="sourcefile">
+            fe-admin/src/lib/components/producer-list/admin-producer-list.component.html</context>
+          <context context-type="linenumber">14,16</context>
         </context-group>
       </trans-unit>
       <trans-unit id="tableHeader.actions" datatype="html">
         <source>Actions</source>
         <target state="translated">Aktionen</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/components/brand-list/admin-brand-list.component.html</context>
+          <context context-type="sourcefile">
+            fe-admin/src/lib/components/color-list/admin-color-list.component.html</context>
           <context context-type="linenumber">16,19</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/components/flavor-group-list/admin-flavor-group-list.component.html</context>
+          <context context-type="sourcefile">
+            fe-admin/src/lib/components/color-type-list/admin-color-type-list.component.html</context>
           <context context-type="linenumber">15,18</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/components/protein-powder-list/admin-protein-powder-list.component.html</context>
-          <context context-type="linenumber">16,19</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/components/protein-type/admin-protein-type-list.component.html</context>
+          <context context-type="sourcefile">
+            fe-admin/src/lib/components/filament-type-list/admin-filament-type-list.component.html</context>
           <context context-type="linenumber">15,18</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="dialog.createBrand.brandName" datatype="html">
-        <source> Brand Name </source>
-        <target state="translated"> Markenname </target>
         <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/dialogs/brand/admin-create-brand.dialog.html</context>
+          <context context-type="sourcefile">
+            fe-admin/src/lib/components/producer-list/admin-producer-list.component.html</context>
+          <context context-type="linenumber">17,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dialog.createColor.colorName" datatype="html">
+        <source> Color Name </source>
+        <target state="translated"> Farbname </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/color/admin-create-color.dialog.html</context>
           <context context-type="linenumber">10,13</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/dialogs/brand/admin-update-brand.dialog.html</context>
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/color/admin-update-color.dialog.html</context>
           <context context-type="linenumber">10,13</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="dialog.createBrand.brandNamePlaceholder" datatype="html">
-        <source>Type brand name</source>
-        <target state="translated">Tippe Markennamen ein</target>
+      <trans-unit id="dialog.createColor.colorNamePlaceholder" datatype="html">
+        <source>Type color name</source>
+        <target state="translated">Tippe Farbnamen ein/target>
         <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/dialogs/brand/admin-create-brand.dialog.html</context>
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/color/admin-create-color.dialog.html</context>
           <context context-type="linenumber">18,19</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/dialogs/brand/admin-update-brand.dialog.html</context>
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/color/admin-update-color.dialog.html</context>
           <context context-type="linenumber">18,19</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="dialog.createBrand.brandUrl" datatype="html">
-        <source> Brand Url </source>
-        <target state="translated"> Marken URL </target>
+      <trans-unit id="dialog.createColor.btnAddNewColor" datatype="html">
+        <source> Add new color </source>
+        <target state="translated"> Neue Farbe hinzufügen </target>
         <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/dialogs/brand/admin-create-brand.dialog.html</context>
-          <context context-type="linenumber">28,31</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/dialogs/brand/admin-update-brand.dialog.html</context>
-          <context context-type="linenumber">28,31</context>
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/color/admin-create-color.dialog.html</context>
+          <context context-type="linenumber">36,39</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="dialog.createBrand.btnAddNewBrand" datatype="html">
-        <source> Add new brand </source>
-        <target state="translated"> Neue Marke hinzufügen </target>
+      <trans-unit id="dialog.deleteColor.deleteMsg" datatype="html">
+        <source> Are you sure you want to delete this color? </source>
+        <target state="translated"> Bist du sicher, dass du diese Farbe löschen willst? </target>
         <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/dialogs/brand/admin-create-brand.dialog.html</context>
-          <context context-type="linenumber">53,56</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="dialog.deleteBrand.deleteMsg" datatype="html">
-        <source> Are you sure you want to delete this brand? </source>
-        <target state="translated"> Bist du sicher, dass du diese Marke löschen willst? </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/dialogs/brand/admin-delete-brand.dialog.html</context>
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/color/admin-delete-color.dialog.html</context>
           <context context-type="linenumber">4,6</context>
         </context-group>
       </trans-unit>
@@ -177,11 +183,23 @@
         <source> Cancel </source>
         <target state="translated"> Abbruch </target>
         <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/dialogs/brand/admin-delete-brand.dialog.html</context>
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/color-type/admin-delete-color-type.dialog.html</context>
           <context context-type="linenumber">14,16</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/dialogs/flavor-group/admin-delete-flavor-group.dialog.html</context>
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/color/admin-delete-color.dialog.html</context>
+          <context context-type="linenumber">14,16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/filament-type/admin-delete-filament-type.dialog.html</context>
+          <context context-type="linenumber">14,16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/producer/admin-delete-producer.dialog.html</context>
           <context context-type="linenumber">14,16</context>
         </context-group>
       </trans-unit>
@@ -189,51 +207,41 @@
         <source> Delete </source>
         <target state="translated"> Löschen </target>
         <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/dialogs/brand/admin-delete-brand.dialog.html</context>
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/color-type/admin-delete-color-type.dialog.html</context>
           <context context-type="linenumber">17,19</context>
         </context-group>
         <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/dialogs/flavor-group/admin-delete-flavor-group.dialog.html</context>
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/color/admin-delete-color.dialog.html</context>
+          <context context-type="linenumber">17,19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/filament-type/admin-delete-filament-type.dialog.html</context>
+          <context context-type="linenumber">17,19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/producer/admin-delete-producer.dialog.html</context>
           <context context-type="linenumber">17,19</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="dialog.createBrand.btnUpdateBrand" datatype="html">
+      <trans-unit id="dialog.createColorType.btnUpdateColorType" datatype="html">
         <source> Update product </source>
         <target state="translated"> Produkt aktualisieren </target>
         <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/dialogs/brand/admin-update-brand.dialog.html</context>
-          <context context-type="linenumber">41,44</context>
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/color-type/admin-update-color-type.dialog.html</context>
+          <context context-type="linenumber">28,32</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="dialog.createFlavorGroup.flavorGroupName" datatype="html">
-        <source> Flavor Group Name </source>
-        <target state="translated"> Geschmacksgruppenname </target>
+      <trans-unit id="dialog.deleteFilamentType.deleteMsg" datatype="html">
+        <source> Are you sure you want to delete this filament-type? </source>
+        <target state="translated"> Bist du sicher, dass du diesen Filament-Type löschen willst? </target>
         <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/dialogs/flavor-group/admin-create-flavor-group.dialog.html</context>
-          <context context-type="linenumber">10,13</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="dialog.createFlavorGroup.flavorGroupNamePlaceholder" datatype="html">
-        <source>Type flavor group name</source>
-        <target state="translated">Tippe Namen der Geschmacksgruppe</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/dialogs/flavor-group/admin-create-flavor-group.dialog.html</context>
-          <context context-type="linenumber">18,19</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="dialog.createFlavorGroup.btnAddFlavorGroup" datatype="html">
-        <source> Add new flavor group </source>
-        <target state="translated"> Neue Geschmacksgruppe hinzufügen </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/dialogs/flavor-group/admin-create-flavor-group.dialog.html</context>
-          <context context-type="linenumber">37,41</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="dialog.deleteFlavorGroup.deleteMsg" datatype="html">
-        <source> Are you sure you want to delete this flavor group? </source>
-        <target state="translated"> Bist du sicher, dass du diese Geschmacksgruppe löschen willst? </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/dialogs/flavor-group/admin-delete-flavor-group.dialog.html</context>
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/filament-type/admin-delete-filament-type.dialog.html</context>
           <context context-type="linenumber">4,6</context>
         </context-group>
       </trans-unit>
@@ -253,52 +261,266 @@
           <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="adminSidebar.brand" datatype="html">
-        <source>Brand</source>
-        <target state="translated">Marke</target>
+      <trans-unit id="pages.color.btnAddColor" datatype="html">
+        <source>Add color</source>
+        <target state="translated">Farbe hinzufügen</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/pages/color/color.page.html</context>
+          <context context-type="linenumber">67,69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="tableHeader.slug" datatype="html">
+        <source>Slug</source>
+        <target state="translated">Slug</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            fe-admin/src/lib/components/color-list/admin-color-list.component.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            fe-admin/src/lib/components/color-type-list/admin-color-type-list.component.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            fe-admin/src/lib/components/producer-list/admin-producer-list.component.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dialog.createColorType.colorTypeSlug" datatype="html">
+        <source> Color Type Slug </source>
+        <target state="translated"> Farbtyp Slug </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/color-type/admin-create-color-type.dialog.html</context>
+          <context context-type="linenumber">10,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dialog.createColorType.colorTypeSlugPlaceholder" datatype="html">
+        <source>Type color type slug</source>
+        <target state="translated">Tippe Farbtyp Slug</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/color-type/admin-create-color-type.dialog.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/color-type/admin-update-color-type.dialog.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dialog.createColorType.btnAddNewColorType" datatype="html">
+        <source> Add new color-type </source>
+        <target state="translated"> Neuen Farbtyp hinzufügen </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/color-type/admin-create-color-type.dialog.html</context>
+          <context context-type="linenumber">37,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dialog.deleteColorType.deleteMsg" datatype="html">
+        <source> Are you sure you want to delete this color-type? </source>
+        <target state="translated"> Bist du sicher, dass du diesen Farbtyp löschen willst? </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/color-type/admin-delete-color-type.dialog.html</context>
+          <context context-type="linenumber">4,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dialog.createColorType.colorSlug" datatype="html">
+        <source> ColorType Slug </source>
+        <target state="translated"> Farbtyp Slug </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/color-type/admin-update-color-type.dialog.html</context>
+          <context context-type="linenumber">10,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dialog.createColor.btnUpdateColor" datatype="html">
+        <source> Update product </source>
+        <target state="translated"> Produkt aktualisieren </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/color/admin-update-color.dialog.html</context>
+          <context context-type="linenumber">24,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dialog.createFilamentType.filamentTypeSlug" datatype="html">
+        <source> Filament Type Slug </source>
+        <target state="translated"> Filament-Typ Slug </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/filament-type/admin-create-filament-type.dialog.html</context>
+          <context context-type="linenumber">10,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dialog.createFilamentType.filamentTypeSlugPlaceholder" datatype="html">
+        <source>Type filament type slug</source>
+        <target state="translated">Tippe Filament-Typ slug</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/filament-type/admin-create-filament-type.dialog.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/filament-type/admin-update-filament-type.dialog.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dialog.createFilamentType.btnAddNewFilamentType" datatype="html">
+        <source> Add new filament-type </source>
+        <target state="translated"> Neuen Filament-Typ hinzufügen </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/filament-type/admin-create-filament-type.dialog.html</context>
+          <context context-type="linenumber">37,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dialog.createFilamentType.filamentSlug" datatype="html">
+        <source> FilamentType Slug </source>
+        <target state="translated"> Filament-Typ Slug </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/filament-type/admin-update-filament-type.dialog.html</context>
+          <context context-type="linenumber">10,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dialog.createFilamentType.btnUpdateFilamentType" datatype="html">
+        <source> Update product </source>
+        <target state="translated"> Produkt aktualisieren </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/filament-type/admin-update-filament-type.dialog.html</context>
+          <context context-type="linenumber">28,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dialog.createProducer.producerName" datatype="html">
+        <source> Producer Name </source>
+        <target state="translated"> Herstellername </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/producer/admin-create-producer.dialog.html</context>
+          <context context-type="linenumber">10,13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/producer/admin-update-producer.dialog.html</context>
+          <context context-type="linenumber">10,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dialog.createProducer.producerNamePlaceholder" datatype="html">
+        <source>Type producer name</source>
+        <target state="translated">Tippe Herstellername</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/producer/admin-create-producer.dialog.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/producer/admin-update-producer.dialog.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dialog.createProducer.producerUrl" datatype="html">
+        <source> Producer Url </source>
+        <target state="translated"> Hersteller Url </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/producer/admin-create-producer.dialog.html</context>
+          <context context-type="linenumber">28,31</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/producer/admin-update-producer.dialog.html</context>
+          <context context-type="linenumber">28,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dialog.createProducer.btnAddNewProducer" datatype="html">
+        <source> Add new producer </source>
+        <target state="translated"> Neuen Herstellen hinzufügen </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/producer/admin-create-producer.dialog.html</context>
+          <context context-type="linenumber">54,58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dialog.deleteProducer.deleteMsg" datatype="html">
+        <source> Are you sure you want to delete this producer? </source>
+        <target state="translated"> Bist du sicher, dass du diesen Herstellen löschen willst? </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/producer/admin-delete-producer.dialog.html</context>
+          <context context-type="linenumber">4,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dialog.createProducer.btnUpdateProducer" datatype="html">
+        <source> Update product </source>
+        <target state="translated"> Hersteller aktualisieren </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">
+            fe-admin/src/lib/dialogs/producer/admin-update-producer.dialog.html</context>
+          <context context-type="linenumber">45,49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="adminSidebar.producer" datatype="html">
+        <source>Producer</source>
+        <target state="translated">Hersteller</target>
         <context-group purpose="location">
           <context context-type="sourcefile">fe-admin/src/lib/layout/admin-sidebar.component.ts</context>
           <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="adminSidebar.flavorGroup" datatype="html">
-        <source>Flavor Group</source>
-        <target state="translated">Geschmacksgruppe</target>
+      <trans-unit id="adminSidebar.color" datatype="html">
+        <source>Color</source>
+        <target state="translated">Farbe</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/layout/admin-sidebar.component.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="adminSidebar.colorType" datatype="html">
+        <source>Color Type</source>
+        <target state="translated">Farbtyp</target>
         <context-group purpose="location">
           <context context-type="sourcefile">fe-admin/src/lib/layout/admin-sidebar.component.ts</context>
           <context context-type="linenumber">19</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="adminSidebar.proteinType" datatype="html">
-        <source>Protein Type</source>
-        <target state="translated">Protein Art</target>
+      <trans-unit id="adminSidebar.filamentType" datatype="html">
+        <source>Filament Type</source>
+        <target state="translated">Filament-Typ</target>
         <context-group purpose="location">
           <context context-type="sourcefile">fe-admin/src/lib/layout/admin-sidebar.component.ts</context>
-          <context context-type="linenumber">23</context>
+          <context context-type="linenumber">20</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="adminSidebar.proteinPowder" datatype="html">
-        <source>Protein Powder</source>
-        <target state="translated">Protein Pulver</target>
+      <trans-unit id="pages.colorType.btnAddColor" datatype="html">
+        <source>Add color-type</source>
+        <target state="translated">Farbtyp hinzufügen</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/layout/admin-sidebar.component.ts</context>
-          <context context-type="linenumber">27</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="pages.brand.btnAddBrand" datatype="html">
-        <source>Add brand</source>
-        <target state="translated">Marke hinzufügen</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/pages/brand/brand.page.html</context>
+          <context context-type="sourcefile">fe-admin/src/lib/pages/color-type/color-type.page.html</context>
           <context context-type="linenumber">67,69</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="pages.proteinPowder.btnAddProteinPowder" datatype="html">
-        <source>Add protein powder</source>
-        <target state="translated">Proteinpulver hinzufügen</target>
+      <trans-unit id="pages.filamentType.btnAddFilament" datatype="html">
+        <source>Add filament-type</source>
+        <target state="translated">Filament-Typ hinzufügen</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">fe-admin/src/lib/pages/protein-powder/protein-powder.page.html</context>
+          <context context-type="sourcefile">
+            fe-admin/src/lib/pages/filament-type/filament-type.page.html</context>
           <context context-type="linenumber">68,71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="pages.producer.btnAddProducer" datatype="html">
+        <source>Add producer</source>
+        <target state="translated">Hersteller hinzufügen</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">fe-admin/src/lib/pages/producer/producer.page.html</context>
+          <context context-type="linenumber">67,70</context>
         </context-group>
       </trans-unit>
     </body>
