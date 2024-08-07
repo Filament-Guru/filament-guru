@@ -14,7 +14,6 @@ export class AdminSidebarComponent {
       name: $localize`:@@adminSidebar.startpage:Startpage`,
       path: '/admin/index',
     },
-    { name: $localize`:@@adminSidebar.brand:Brand`, path: '/admin/brand' },
     { name: $localize`:@@adminSidebar.producer:Producer`, path: '/admin/producer' },
     { name: $localize`:@@adminSidebar.color:Color`, path: '/admin/color' },
     { name: $localize`:@@adminSidebar.colorType:Color Type`, path: '/admin/color-type' },

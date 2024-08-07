@@ -5,7 +5,8 @@
     "declaration": true,
     "declarationMap": true,
     "inlineSources": true,
-    "types": []
+    "types": ["@angular/localize"],
+    "composite": true
   },
   "exclude": [
     "src/**/*.spec.ts",

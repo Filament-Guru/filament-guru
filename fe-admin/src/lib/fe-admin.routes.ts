@@ -1,7 +1,6 @@
 import { Route } from '@angular/router';
 import { AdminStartpagePage } from './pages/startpage/startpage.page';
 import { FeAdminShell } from './layout/fe-admin/fe-admin.shell';
-import { AdminBrandPage } from './pages/brand/brand.page';
 import { AdminProducerPage } from './pages/producer/producer.page';
 import { AdminColorPage } from './pages/color/color.page';
 import { AdminFilamentTypePage } from './pages/filament-type/filament-type.page';
@@ -15,10 +14,6 @@ export const adminRoutes: Route[] = [
       {
         path: 'index',
         component: AdminStartpagePage,
-      },
-      {
-        path: 'brand',
-        component: AdminBrandPage,
       },
       {
         path: 'producer',

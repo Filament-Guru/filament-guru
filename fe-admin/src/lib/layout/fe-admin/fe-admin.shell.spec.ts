@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { FeAdminComponent } from './fe-admin.shell';
+import { FeAdminShell } from './fe-admin.shell';
 
-describe('FeAdminComponent', () => {
-  let component: FeAdminComponent;
-  let fixture: ComponentFixture<FeAdminComponent>;
+describe('FeAdminShell', () => {
+  let component: FeAdminShell;
+  let fixture: ComponentFixture<FeAdminShell>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [FeAdminComponent],
+      imports: [FeAdminShell],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(FeAdminComponent);
+    fixture = TestBed.createComponent(FeAdminShell);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
