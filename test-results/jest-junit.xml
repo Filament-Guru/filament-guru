@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Angular Inventions Tests" tests="11" failures="0" errors="0" time="3.779">
+  <testsuite name="FilamentController" errors="0" failures="0" skipped="0" timestamp="2024-08-07T19:28:04" time="3.185" tests="1">
+    <testcase classname="FilamentController should be defined" name="FilamentController should be defined" time="0.025">
+    </testcase>
+  </testsuite>
+  <testsuite name="FilamentTypeController" errors="0" failures="0" skipped="0" timestamp="2024-08-07T19:28:04" time="3.191" tests="1">
+    <testcase classname="FilamentTypeController should be defined" name="FilamentTypeController should be defined" time="0.112">
+    </testcase>
+  </testsuite>
+  <testsuite name="ProducerController" errors="0" failures="0" skipped="0" timestamp="2024-08-07T19:28:04" time="3.195" tests="1">
+    <testcase classname="ProducerController should be defined" name="ProducerController should be defined" time="0.014">
+    </testcase>
+  </testsuite>
+  <testsuite name="FilamentTypeController" errors="0" failures="0" skipped="0" timestamp="2024-08-07T19:28:04" time="3.235" tests="1">
+    <testcase classname="FilamentTypeController should be defined" name="FilamentTypeController should be defined" time="0.014">
+    </testcase>
+  </testsuite>
+  <testsuite name="FilamentTypeService" errors="0" failures="0" skipped="0" timestamp="2024-08-07T19:28:08" time="0.224" tests="1">
+    <testcase classname="FilamentTypeService should be defined" name="FilamentTypeService should be defined" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="ColorTypeService" errors="0" failures="0" skipped="0" timestamp="2024-08-07T19:28:08" time="0.215" tests="1">
+    <testcase classname="ColorTypeService should be defined" name="ColorTypeService should be defined" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="ProducerService" errors="0" failures="0" skipped="0" timestamp="2024-08-07T19:28:08" time="0.217" tests="1">
+    <testcase classname="ProducerService should be defined" name="ProducerService should be defined" time="0.007">
+    </testcase>
+  </testsuite>
+  <testsuite name="ColorController" errors="0" failures="0" skipped="0" timestamp="2024-08-07T19:28:08" time="0.265" tests="1">
+    <testcase classname="ColorController should be defined" name="ColorController should be defined" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="PrismaService" errors="0" failures="0" skipped="0" timestamp="2024-08-07T19:28:08" time="0.085" tests="1">
+    <testcase classname="PrismaService should be defined" name="PrismaService should be defined" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="ColorService" errors="0" failures="0" skipped="0" timestamp="2024-08-07T19:28:08" time="0.156" tests="1">
+    <testcase classname="ColorService should be defined" name="ColorService should be defined" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="FilamentService" errors="0" failures="0" skipped="0" timestamp="2024-08-07T19:28:08" time="0.16" tests="1">
+    <testcase classname="FilamentService should be defined" name="FilamentService should be defined" time="0.003">
+    </testcase>
+  </testsuite>
+</testsuites>

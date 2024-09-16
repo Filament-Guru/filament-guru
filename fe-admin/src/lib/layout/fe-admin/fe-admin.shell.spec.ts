@@ -1,5 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { FeAdminShell } from './fe-admin.shell';
+import { provideRouter } from '@angular/router';
 
 describe('FeAdminShell', () => {
   let component: FeAdminShell;
@@ -8,6 +9,7 @@ describe('FeAdminShell', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [FeAdminShell],
+      providers: [provideRouter([])]
     }).compileComponents();
 
     fixture = TestBed.createComponent(FeAdminShell);

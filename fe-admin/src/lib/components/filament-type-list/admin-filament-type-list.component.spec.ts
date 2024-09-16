@@ -1,5 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { AdminFilamentTypeListComponent } from './admin-filament-type-list.component';
+import { provideHttpClient } from '@angular/common/http';
 
 describe('AdminFilamentTypeListComponent', () => {
   let component: AdminFilamentTypeListComponent;
@@ -8,6 +9,7 @@ describe('AdminFilamentTypeListComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [AdminFilamentTypeListComponent],
+      providers: [provideHttpClient()]
     }).compileComponents();
 
     fixture = TestBed.createComponent(AdminFilamentTypeListComponent);

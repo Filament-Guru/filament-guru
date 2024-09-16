@@ -8,4 +8,15 @@ export default {
   },
   moduleFileExtensions: ['ts', 'js', 'html'],
   coverageDirectory: '../../coverage/apps/backend',
+  reporters: [
+    'default',
+    [
+      'jest-junit',
+      {
+        outputDirectory: 'test-results',
+        outputName: 'jest-junit.xml',
+        suiteName: 'Angular Inventions Tests',
+      },
+    ],
+  ],
 };

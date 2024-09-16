@@ -7,7 +7,7 @@ import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
 import { AdminProducerService } from '../../services/producer.service';
 import { UiButtonDirective, UiInputDirective } from '@filament-guru/fe-ui';
 
-interface UpdateProducerDialogData {
+export interface UpdateProducerDialogData {
   producer: Producer;
 }
 

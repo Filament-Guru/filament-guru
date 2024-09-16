@@ -7,7 +7,7 @@ import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
 import { AdminFilamentTypeService } from '../../services/filament-type.service';
 import { UiButtonDirective, UiInputDirective } from '@filament-guru/fe-ui';
 
-interface UpdateFilamentTypeDialogData {
+export interface UpdateFilamentTypeDialogData {
   filamentType: FilamentType;
 }
 

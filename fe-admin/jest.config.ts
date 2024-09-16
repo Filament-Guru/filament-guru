@@ -1,3 +1,4 @@
+
 /* eslint-disable */
 export default {
   displayName: 'fe-admin',
@@ -18,5 +19,16 @@ export default {
     'jest-preset-angular/build/serializers/no-ng-attributes',
     'jest-preset-angular/build/serializers/ng-snapshot',
     'jest-preset-angular/build/serializers/html-comment',
+  ],
+  reporters: [
+    'default',
+    [
+      'jest-junit',
+      {
+        outputDirectory: 'test-results',
+        outputName: 'jest-junit.xml',
+        suiteName: 'Angular Inventions Tests',
+      },
+    ],
   ],
 };

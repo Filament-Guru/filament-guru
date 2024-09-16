@@ -1,5 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { AdminProducerPage } from './producer.page';
+import { provideHttpClient } from '@angular/common/http';
 
 describe('BrandComponent', () => {
   let component: AdminProducerPage;
@@ -8,6 +9,7 @@ describe('BrandComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [AdminProducerPage],
+      providers: [provideHttpClient()]
     }).compileComponents();
 
     fixture = TestBed.createComponent(AdminProducerPage);

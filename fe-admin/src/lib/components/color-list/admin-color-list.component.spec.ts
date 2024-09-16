@@ -1,5 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { AdminColorListComponent } from './admin-color-list.component';
+import { provideHttpClient } from '@angular/common/http';
 
 describe('AdminColorListComponent', () => {
   let component: AdminColorListComponent;
@@ -8,6 +9,7 @@ describe('AdminColorListComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [AdminColorListComponent],
+      providers: [provideHttpClient()]
     }).compileComponents();
 
     fixture = TestBed.createComponent(AdminColorListComponent);

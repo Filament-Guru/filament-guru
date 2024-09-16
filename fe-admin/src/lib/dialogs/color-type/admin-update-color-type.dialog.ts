@@ -7,7 +7,7 @@ import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
 import { AdminColorTypeService } from '../../services/color-type.service';
 import { UiButtonDirective, UiInputDirective } from '@filament-guru/fe-ui';
 
-interface UpdateColorTypeDialogData {
+export interface UpdateColorTypeDialogData {
   colorType: ColorType;
 }
 

@@ -1,5 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { AdminNavbarComponent } from './admin-navbar.component';
+import { provideRouter } from '@angular/router';
 
 describe('AdminNavbarComponent', () => {
   let component: AdminNavbarComponent;
@@ -8,6 +9,7 @@ describe('AdminNavbarComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [AdminNavbarComponent],
+      providers: [provideRouter([])]
     }).compileComponents();
 
     fixture = TestBed.createComponent(AdminNavbarComponent);
