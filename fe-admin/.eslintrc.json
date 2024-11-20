@@ -20,7 +20,7 @@
         "@angular-eslint/component-class-suffix": [
           "error",
           {
-            "suffixes": ["Component", "Dialog"]
+            "suffixes": ["Component", "Dialog", "Shell"]
           }
         ],
         "@angular-eslint/component-selector": [

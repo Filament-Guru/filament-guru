@@ -18,12 +18,6 @@
               }
             ]
           }
-        ],
-        "@angular-eslint/component-class-suffix": [
-          "error",
-          {
-            "suffixes": ["Component", "Page", "Shell"]
-          }
         ]
       }
     },
