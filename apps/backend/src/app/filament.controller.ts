@@ -31,14 +31,14 @@ class FilamentApiProperties {
   diameter: Diameter
 
   producer: {
-    create: any;
+    create: never;
     connect: {
       id: number;
     };
   };
 
   type: {
-    create: any;
+    create: never;
     connect: {
       id: number;
     };

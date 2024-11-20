@@ -9,7 +9,7 @@ import { AdminNavbarComponent } from '../admin-navbar.component';
   standalone: true,
   imports: [CommonModule, RouterOutlet, AdminSidebarComponent, AdminNavbarComponent],
   template: `
-  <div class="antialiased bg-gray-50 dark:bg-gray-900">
+  <div class="antialiased bg-gray-50 dark:bg-gray-900 min-h-screen">
     <admin-navbar />
     <admin-sidebar />
     <main class="p-4 md:ml-64 h-auto pt-20">
@@ -18,5 +18,4 @@ import { AdminNavbarComponent } from '../admin-navbar.component';
   </div>
   `
 })
-export class FeAdminShell {
-}
+export class FeAdminShell {}
